@@ -1,3 +1,8 @@
+main {
+  max-width: 1400px;
+  margin: 10px;
+}
+
 /*************** Menu ****************/
 
 header {
@@ -8,7 +13,7 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #96add6;
-  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
+  z-index: 10;
 }
 
 .logo img {
@@ -124,7 +129,6 @@ nav {
 /*Footer styling */
 footer {
   background-color: #96add6;
-  font-family: indie flower;
   padding: 50px;
   text-align: center;
   color: white;
@@ -135,25 +139,40 @@ footer {
   align-items: center;
   height: auto;
 }
-
-@media (max-width: 700px) {
-  footer {
-    padding: 70px;
-    margin-top: 50px;
-    font-family: indie flower;
-  }
-}
-
 /*Footer slut*/
 
-main {
-  max-width: 1000px;
-  margin: 10px;
+.img-w-txt {
+  display: grid;
+  align-items: center;
+}
+
+.img-w-txt > * {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 30px;
 }
 
 /*Mobilversion*/
+.projektoversigt {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 20px;
+}
 
 /*Desktop*/
-
 @media (min-width: 800px) {
+  .projektoversigt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .projektoversigt img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }
