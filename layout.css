@@ -4,17 +4,17 @@ header {
   position: sticky;
   top: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #96add6;
   /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
 }
 
-/* .logo img {
+.logo img {
   width: 100px;
-  height: 120px;
-} */
+  height: 100px;
+}
 
 nav {
   display: flex;
@@ -44,7 +44,7 @@ nav {
   transition: color 0.3s, background-color 0.3s, border-color 0.3s; /* Overgang for farver */
   text-align: end;
   font-family: indie flower;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #96add6;
   border-radius: 70px;
 }
