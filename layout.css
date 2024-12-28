@@ -120,3 +120,35 @@ nav {
 }
 
 /* Menu slutter */
+
+main {
+  margin: 100px 20px 70px 20px;
+
+  @media (min-width: 600px) {
+    margin: 100px 50px 70px 50px;
+  }
+  @media (min-width: 1070px) {
+    margin: 100px auto 70px auto;
+    max-width: 1000px;
+  }
+}
+
+footer {
+  background-color: #96add6;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  footer {
+    padding: 70px;
+    margin-top: 50px;
+  }
+}

@@ -17,3 +17,24 @@ video {
 body {
   background-color: #f2eee9;
 }
+
+.hero {
+  display: grid;
+  background-image: url(img/Udkast\ til\ hero-section.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  font-size: 80px;
+  font-family: indie flower;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero_tekst {
+  margin-left: 10px;
+  color: #131110;
+}
