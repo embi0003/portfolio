@@ -51,11 +51,13 @@ nav {
   font-size: 30px;
   background-color: #96add6;
   border-radius: 70px;
+  /* border: 2px solid #00408c; */
 }
 
 .menu a:hover {
   color: #ffffff;
   background-color: #556da2;
+  transform: scale(1);
 }
 
 .burger {
@@ -130,7 +132,7 @@ footer {
   background-color: #96add6;
   padding: 50px;
   text-align: center;
-  color: white;
+  color: #00408c;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -173,10 +175,27 @@ footer {
   background-color: #f2d7d3;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   margin: 15px;
+  font-size: 14px;
+}
+
+.tekst_i_cirkel h2 {
+  margin: 25px 10px 0px 10px;
+  font-size: 40px;
+}
+
+.tekst_i_cirkel p {
+  margin: 7px 30px 0 30px;
+  line-height: 1.6;
+}
+
+.om_mig_overskrift {
+  font-size: 80px;
+  text-align: center;
 }
 
 /*Desktop*/
@@ -215,9 +234,26 @@ footer {
     background-color: #f2d7d3;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     margin: 15px;
+    font-size: 14px;
+  }
+
+  .tekst_i_cirkel h2 {
+    margin: 80px 0 10px 0;
+    font-size: 50px;
+  }
+
+  .tekst_i_cirkel p {
+    margin: 15px 70px 0 70px;
+    line-height: 1.6;
+  }
+
+  .om_mig_overskrift {
+    font-size: 120px;
+    text-align: center;
   }
 }
