@@ -1,5 +1,5 @@
 main {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -180,7 +180,6 @@ footer {
   align-items: center;
   text-align: center;
   margin: 15px;
-  font-size: 14px;
 }
 
 .tekst_i_cirkel h2 {
@@ -189,13 +188,41 @@ footer {
 }
 
 .tekst_i_cirkel p {
-  margin: 7px 30px 0 30px;
+  margin: 15px 30px 0 30px;
   line-height: 1.6;
+  font-family: merriweather;
+  font-size: 13px;
 }
 
 .om_mig_overskrift {
   font-size: 80px;
   text-align: center;
+}
+
+.cv_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+  text-align: center;
+}
+
+.cv_container p {
+  margin: 10px 0;
+  font-size: 18px;
+  font-family: merriweather;
+}
+
+.h2_cv {
+  font-size: 80px;
+  text-align: center;
+}
+
+.farveboks {
+  padding: 20px;
+  background-color: #f2d7d3;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 /*Desktop*/
@@ -217,6 +244,7 @@ footer {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
     gap: 10px;
   }
 
@@ -238,8 +266,6 @@ footer {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    margin: 15px;
-    font-size: 14px;
   }
 
   .tekst_i_cirkel h2 {
@@ -249,11 +275,35 @@ footer {
 
   .tekst_i_cirkel p {
     margin: 15px 70px 0 70px;
+    font-family: merriweather;
     line-height: 1.6;
+    font-size: 15px;
   }
 
   .om_mig_overskrift {
     font-size: 120px;
     text-align: center;
+  }
+
+  .cv_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .cv_container p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: merriweather;
+  }
+
+  .farveboks {
+    padding: 20px;
+    background-color: #f2d7d3;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
   }
 }
