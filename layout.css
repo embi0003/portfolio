@@ -148,6 +148,10 @@ footer {
 }
 
 /*Mobilversion*/
+.index_h1 {
+  font-size: 50px;
+}
+
 .projektoversigt {
   display: grid;
   grid-template-columns: 1fr;
@@ -228,10 +232,25 @@ footer {
 
 .cv_overskrifter {
   text-decoration: underline;
+  font-size: 35px;
+}
+
+.tema_overskrifter {
+  font-size: 45px;
+}
+
+.tema_underoverskrifter {
+  font-size: 18px;
 }
 
 /*Desktop*/
 @media (min-width: 800px) {
+  .index_h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
   .projektoversigt {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -314,5 +333,14 @@ footer {
 
   .cv_overskrifter {
     text-decoration: underline;
+    font-size: 35px;
+  }
+
+  .tema_overskrifter1 {
+    font-size: 100px;
+  }
+
+  .tema_underoverskrifter {
+    font-size: 30px;
   }
 }
