@@ -235,12 +235,30 @@ footer {
   font-size: 35px;
 }
 
-.tema_overskrifter {
+.tema_overskrifter1 {
   font-size: 45px;
+  margin: 10px;
 }
 
 .tema_underoverskrifter {
   font-size: 18px;
+  margin: 10px;
+}
+
+.grid_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 15px;
+  line-height: 1.5;
+}
+
+.tema2_billeder {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.tema_h3 {
+  font-size: 30px;
 }
 
 /*Desktop*/
@@ -342,5 +360,26 @@ footer {
 
   .tema_underoverskrifter {
     font-size: 30px;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px;
+    line-height: 1.5;
+    gap: 10px;
+  }
+
+  .tema2_billeder {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .tema_h3 {
+    font-size: 30px;
+  }
+
+  .omvendt {
+    order: 2;
   }
 }

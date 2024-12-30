@@ -37,6 +37,27 @@ p {
   font-family: merriweather;
 }
 
+.knap {
+  background-color: #96add6;
+  color: #00408c;
+  font-size: 30px;
+  font-family: indie flower;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+}
+
+.knap:hover {
+  background-color: rgb(242, 242, 242);
+  color: #00408c;
+  transform: scale(1.1);
+}
+
 .hero {
   display: grid;
   background-image: url(img/Udkast\ til\ hero-section.webp);
