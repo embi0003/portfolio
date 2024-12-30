@@ -205,6 +205,7 @@ footer {
   gap: 20px;
   justify-items: center;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .cv_container p {
@@ -223,6 +224,10 @@ footer {
   background-color: #f2d7d3;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+}
+
+.cv_overskrifter {
+  text-decoration: underline;
 }
 
 /*Desktop*/
@@ -305,5 +310,9 @@ footer {
     padding: 20px;
     background-color: #f2d7d3;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .cv_overskrifter {
+    text-decoration: underline;
   }
 }
