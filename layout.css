@@ -248,8 +248,11 @@ footer {
 .grid_2 {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 15px;
+  margin: 25px 15px 30px 15px;
   line-height: 1.5;
+  background-color: #f2d7d3;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .tema2_billeder {
@@ -259,6 +262,12 @@ footer {
 
 .tema_h3 {
   font-size: 30px;
+  margin: 10px;
+}
+
+.p-2 {
+  margin: 10px;
+  line-height: 1.5;
 }
 
 /*Desktop*/
@@ -365,9 +374,12 @@ footer {
   .grid_2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 15px;
+    margin: 25px 10px 25px 10px;
     line-height: 1.5;
     gap: 10px;
+    background-color: #f2d7d3;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
   }
 
   .tema2_billeder {
@@ -380,6 +392,6 @@ footer {
   }
 
   .omvendt {
-    order: 2;
+    order: -1;
   }
 }

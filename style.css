@@ -48,14 +48,14 @@ p {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-align: center;
-  width: 300px;
+  width: 260px;
   margin: 10px;
 }
 
 .knap:hover {
   background-color: rgb(242, 242, 242);
   color: #00408c;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .hero {
