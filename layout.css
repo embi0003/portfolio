@@ -283,6 +283,13 @@ footer {
   margin: 15px;
 }
 
+.billederaekke_web {
+  background-color: #f2d7d3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .t3-p_1 {
   line-height: 1.5;
   margin-bottom: 25px;
