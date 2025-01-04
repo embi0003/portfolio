@@ -149,6 +149,8 @@ footer {
 }
 
 /*Mobilversion*/
+
+/*Forside*/
 .index_h1 {
   font-size: 50px;
 }
@@ -165,6 +167,8 @@ footer {
   grid-template-columns: 1fr;
   gap: 10px;
 }
+
+/*Om mig*/
 
 .portraet {
   width: 460px;
@@ -236,6 +240,8 @@ footer {
   font-size: 35px;
 }
 
+/*Tema-siders overskrifter og underoverskrifter*/
+
 .tema_overskrifter1 {
   font-size: 45px;
   margin: 10px;
@@ -245,6 +251,8 @@ footer {
   font-size: 18px;
   margin: 10px;
 }
+
+/*Tema 2*/
 
 .grid_2 {
   display: grid;
@@ -270,6 +278,8 @@ footer {
   margin: 10px;
   line-height: 1.5;
 }
+
+/*Tema 3*/
 
 .h3-3 {
   font-size: 30px;
@@ -309,8 +319,33 @@ span {
   margin: 15px;
 }
 
+/*Tema 4*/
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 15px 20px 15px;
+}
+
+.t4-h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 15px;
+}
+
+.t4_tekst {
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.t4_billeder {
+  margin-bottom: 15px;
+}
+
 /*Desktop*/
 @media (min-width: 800px) {
+  /*Forside*/
   .index_h1 {
     font-size: 70px;
     text-align: center;
@@ -330,6 +365,8 @@ span {
     height: auto;
     object-fit: cover;
   }
+
+  /*Om mig-side og CV*/
 
   .grid_1-1 {
     display: grid;
@@ -402,6 +439,8 @@ span {
     font-size: 35px;
   }
 
+  /*Fælles tema-overskrifter*/
+
   .tema_overskrifter1 {
     font-size: 100px;
   }
@@ -409,6 +448,8 @@ span {
   .tema_underoverskrifter {
     font-size: 30px;
   }
+
+  /*Tema 2*/
 
   .grid_2 {
     display: grid;
@@ -433,6 +474,8 @@ span {
   .omvendt {
     order: -1;
   }
+
+  /*Tema 3*/
 
   .h3-3 {
     font-size: 30px;
@@ -468,5 +511,35 @@ span {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /*Tema 4*/
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 15px 20px 15px;
+  }
+
+  .grid-1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 15px 20px 15px;
+    gap: 10px;
+  }
+
+  .t4-h3 {
+    font-size: 30px;
+    margin-top: 40px;
+    padding-left: 15px;
+  }
+
+  .t4_tekst {
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .omvendt1 {
+    order: 3;
   }
 }
