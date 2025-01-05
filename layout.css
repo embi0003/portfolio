@@ -364,6 +364,29 @@ span {
   border: 3px solid #f2d7d3;
 }
 
+/*Tema 5*/
+
+.t5-h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.video-t5 {
+  margin: 0 15px 10px 15px;
+}
+
+.t5-tekst {
+  line-height: 1.5;
+  margin: 5px 15px 10px 15px;
+  background-color: #f2d7d3;
+  padding: 20px;
+  border-radius: 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #f2d7d3;
+}
+
 /*Desktop*/
 @media (min-width: 800px) {
   /*Forside*/
@@ -489,7 +512,7 @@ span {
   }
 
   .tema_h3 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .omvendt {
@@ -499,7 +522,7 @@ span {
   /*Tema 3*/
 
   .h3-3 {
-    font-size: 30px;
+    font-size: 35px;
     margin: 50px 10px 20px 5px;
   }
 
@@ -549,7 +572,7 @@ span {
   }
 
   .t4-h3 {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 40px;
     padding-left: 15px;
   }
@@ -562,5 +585,23 @@ span {
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border: 3px solid #f2d7d3;
+  }
+
+  /* Tema 5*/
+
+  .t5-h3 {
+    font-size: 35px;
+    margin-top: 40px;
+    padding-left: 15px;
+  }
+
+  .t5-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .t5-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
