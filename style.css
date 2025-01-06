@@ -80,6 +80,14 @@ p {
   font-size: 100px;
 }
 
+.scroll_button:hover {
+  transform: scale(1.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .img-w-txt {
   display: grid;
   align-items: center;
@@ -111,7 +119,7 @@ p {
 
 a {
   text-decoration: none;
-  transition: transform 0.3 ease;
+  transition: transform 0.3s ease;
 }
 
 a:hover {

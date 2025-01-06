@@ -152,7 +152,29 @@ footer {
 
 /*Forside*/
 .index_h1 {
-  font-size: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.index_h2 {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.h3_index {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.scroll_button {
+  font-size: 35px;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+  text-align: center;
 }
 
 .projektoversigt {
@@ -350,6 +372,10 @@ span {
   border: 3px solid #f2d7d3;
 }
 
+.t4_p {
+  margin-bottom: 10px;
+}
+
 .boks1_tekst {
   line-height: 1.5;
   margin-bottom: 15px;
@@ -387,6 +413,10 @@ span {
   border: 3px solid #f2d7d3;
 }
 
+.t5-p {
+  margin-bottom: 10px;
+}
+
 .grid_galleri {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -415,9 +445,29 @@ span {
 @media (min-width: 800px) {
   /*Forside*/
   .index_h1 {
-    font-size: 70px;
+    font-size: 55px;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+
+  .index_h2 {
+    font-size: 27px;
+    line-height: 1.5;
+  }
+
+  .h3_index {
+    margin-bottom: 30px;
+  }
+
+  .scroll_button {
+    font-size: 60px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin-top: 100px;
+    transition: transform 0.3s ease;
+    text-align: center;
   }
 
   .projektoversigt {
@@ -566,7 +616,7 @@ span {
 
   .t3-p_1 {
     line-height: 1.5;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 
   span {
@@ -611,6 +661,10 @@ span {
     border: 3px solid #f2d7d3;
   }
 
+  .t4_p {
+    margin-bottom: 10px;
+  }
+
   /* Tema 5*/
 
   .t5-h3 {
@@ -627,6 +681,10 @@ span {
   .t5-grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .t5-p {
+    margin-bottom: 10px;
   }
 
   .grid_galleri {
@@ -667,7 +725,7 @@ span {
 
   .t5-tekst {
     line-height: 1.5;
-    margin: 10px 15px 10px 0;
+    margin: 10px 15px 10px 15px;
     background-color: #f2d7d3;
     padding: 20px;
     border-radius: 0px;
