@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23f2d7d3%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2284%22>🌹</text></svg>" />
+
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="layout.css" />
@@ -27,7 +29,7 @@
           <li><a href="tema3.html">Tema 3</a></li>
           <li><a href="tema4.html">Tema 4</a></li>
           <li><a href="tema5.html">Tema 5</a></li>
-          <li><a href="cv.html">CV</a></li>
+          <li><a href="cv.html">Om mig</a></li>
         </ul>
       </nav>
       <div class="burger">
@@ -36,7 +38,84 @@
         <div class="line"></div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <h1 class="tema_overskrifter1">TEMA 4 -</h1>
+      <h1 class="tema_overskrifter1">GRUNDLÆGGENDE ANIMATION</h1>
+      <h2 class="tema_underoverskrifter">En grundlæggende introduktion til programmeringssproget javascript, som kan bruges til at kode dynamiske websites. Herunder arbejde med css-animationer og formgivning af grafiske elementer.</h2>
+
+      <div class="knap">
+        <a href="https://emilierose.dk/kea/04_animation/website/index.html">Prøv spillet</a>
+      </div>
+
+      <h3 class="t4-h3">Idéudvikling til spil</h3>
+      <section class="grid-1">
+        <div class="t4_tekst">
+          <p class="t4_p">I forløb 4 lød opgaven på at udvikle et simpelt spil med brug af CSS-animationer og javascript. Med benspændet, at ens objekter kun kunne falde fra toppen eller flyve ind fra siderne, startede jeg min idéudvikling, hvor jeg hurtigt lagde mig fast på idéen til mit spil "Sea Saver", hvor man skal redde havet fra at blive forurenet af dåser.</p>
+          <p class="t4_p">Jeg udviklede et styletile og fandt inspiration i Bittu Choudharys stil nemlig flat design, der er en minimalistisk stil med enkle todimensionelle elementer i klare farver og med ren typografi.</p>
+          <p class="t4_p">Med min design-analyse på plads vurderede jeg, at mit spil skulle ligge et sted mellem et futuristisk design og et post-modernistisk/antidesign.</p>
+          <p class="t4_p">Jeg gik i gang med at lave skitser til mine figurer til spillet, en fisk og en dåse, som jeg dernæst tegnede op i Illustrator og omdannede til svg-filer, der kunne bruges i spillet.</p>
+        </div>
+        <div>
+          <img src="img/opstart_t4_resultat.webp" alt="Her er styletile og figurer til spillet." />
+        </div>
+      </section>
+
+      <h3 class="t4-h3">Skærme og elementer</h3>
+      <section class="grid-1-4">
+        <div class="boks1">
+          <div>
+            <img src="img/forside_spil_resultat.webp" alt="Forsiden til mit spil" />
+          </div>
+          <div class="boks1_tekst">
+            <p class="t4_p">STARTSKÆRM</p>
+            <p class="t4_p">Udover at tegne mine figurer i Illustrator skulle jeg også udarbejde mine spilskærme deri.</p>
+            <p class="t4_p">Herunder min startskærm, game over-skærm og vinder-skærm. Jeg brugte pentool-redskabet til at lave designet på skærmene, og så omdannede jeg dem til svg-filer ligesom figurene.</p>
+            <p class="t4_p">I dette forløb satte jeg mine spilskærme ind i min css som background-image med en aspect ratio i et 16:9-format.</p>
+            <p class="t4_p">I denne sammenhæng brugte jeg også position:absolut, der placerer et element præcist på siden uafhængigt af de andre elementer omkring det.</p>
+          </div>
+        </div>
+        <div class="boks1">
+          <div>
+            <img src="img/game_over_spil_resultat.webp" alt="Game over-skærmen" />
+          </div>
+          <div class="boks1_tekst">
+            <p>GAME OVER</p>
+            <p class="t4_p"></p>
+            <p class="t4_p">Da jeg havde lavet strukturen færdig og sat de forskellige skærme ind, oprettede jeg mit javascript-dokument for mit spil, så jeg kunne komme i gang med at få elementerne til at blive aktiveret.</p>
+
+            <p class="t4_p">Jeg brugte document.querySelector() til at vælge de relevante HTML-elementer som knapper, billeder og tekstfelter, som skulle aktiveres i løbet af spillet.</p>
+
+            <p class="t4_p">Når spilleren klikker på et objekt, har jeg brugt addEventListener () til at tilføje lyttefunktioner, der reagerer på brugerens interaktion. Fx. at klik på en dåse eller fisk resulterer i en ændring af point og liv.</p>
+          </div>
+        </div>
+        <div class="boks1">
+          <div>
+            <img src="img/winner.webp" alt="Vinderskærmen" />
+          </div>
+          <div class="boks1_tekst">
+            <p class="t4_p">VINDER-SKÆRM</p>
+
+            <p class="t4_p">Jeg definerede desuden funktioner som startSpillet() og nytRand(), som er med til at styre spillets flow. Fx. starte spillet, opdatere point eller generere forskellige positioner for objekterne i spillet.</p>
+
+            <p class="t4_p">For at styre animationer af objekterne har jeg brugt classList.add() og classList.remove() for at tilføje eller fjerne CSS-klasser, som aktiverer eller stopper animationerne.</p>
+
+            <p class="t4_p">Ved spillets slutning har jeg brugt removeEventListener() for at forhindre utilsigtede handlinger, hvis der er interaktioner efter spillets afslutning.</p>
+          </div>
+        </div>
+      </section>
+
+      <h3 class="t4-h3">Sea Saver - det endelige resultat</h3>
+      <section class="grid-1">
+        <div class="t4_tekst">
+          <p class="t4_p">Undervejs i arbejdet med at få sat mit javascript op, kunne jeg følge med i både mit aktivitetsdiagram og mit state machine diagram, som jeg havde lavet på forhånd. Her havde jeg defineret de forskellige elementers handlinger, så jeg kunne følge med i processerne, mens jeg udarbejdede min struktur og mit spil.</p>
+          <p class="t4_p">Da jeg var nået i mål var det tid til at afprøve spillet. Den færdige præmis blev, at man på 20 sekunder skulle nå at trykke på mindst 10 dåser, beholde alle tre liv (eller mindst ét) og lade fiskene ramme vandet for at vinde.</p>
+          <p class="t4_p">Dette forløb var klart det mest udfordrende for mig, da der var rigtig mange nye elementer at lære og holde styr på. Spillet endte som jeg gerne ville og fik god feedback (dog mente flere, at det godt kunne være lidt sværere), men jeg ser frem til at arbejde mere konkret med javascript på hjemmesider.</p>
+        </div>
+        <div>
+          <video src="img/portfolio_video.webm" autoplay loop></video>
+        </div>
+      </section>
+    </main>
     <footer>
       <p>© 2024 EMILIE ROSES PORTFOLIO</p>
     </footer>

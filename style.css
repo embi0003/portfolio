@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
@@ -20,23 +21,42 @@ body {
 h1 {
   font-family: indie flower;
   color: #131110;
-  font-size: 48px;
 }
 
 h2 {
   font-family: indie flower;
   color: #131110;
-  font-size: 32px;
 }
 
 h3 {
   font-family: indie flower;
   color: #131110;
-  font-size: 20px;
 }
 
 p {
+  font-size: 15px;
   font-family: merriweather;
+}
+
+.knap {
+  background-color: #96add6;
+  color: #00408c;
+  font-size: 30px;
+  font-family: indie flower;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  width: 260px;
+  margin: 10px;
+}
+
+.knap:hover {
+  background-color: rgb(242, 242, 242);
+  color: #00408c;
+  transform: scale(1.05);
 }
 
 .hero {
@@ -45,7 +65,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 }
 
 .hero img {
@@ -58,6 +78,14 @@ p {
   color: #131110;
   font-family: indie flower;
   font-size: 100px;
+}
+
+.scroll_button:hover {
+  transform: scale(1.2);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .img-w-txt {
@@ -91,7 +119,7 @@ p {
 
 a {
   text-decoration: none;
-  transition: transform 0.3 ease;
+  transition: transform 0.3s ease;
 }
 
 a:hover {

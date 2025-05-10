@@ -1,5 +1,5 @@
 main {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -51,11 +51,13 @@ nav {
   font-size: 30px;
   background-color: #96add6;
   border-radius: 70px;
+  /* border: 2px solid #00408c; */
 }
 
 .menu a:hover {
   color: #ffffff;
   background-color: #556da2;
+  transform: scale(1);
 }
 
 .burger {
@@ -130,13 +132,14 @@ footer {
   background-color: #96add6;
   padding: 50px;
   text-align: center;
-  color: white;
+  color: #00408c;
   width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
+  margin-top: 60px;
 }
 /*Footer slut*/
 
@@ -146,6 +149,34 @@ footer {
 }
 
 /*Mobilversion*/
+
+/*Forside*/
+.index_h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.index_h2 {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.h3_index {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.scroll_button {
+  font-size: 35px;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
 .projektoversigt {
   display: grid;
   grid-template-columns: 1fr;
@@ -158,6 +189,8 @@ footer {
   grid-template-columns: 1fr;
   gap: 10px;
 }
+
+/*Om mig*/
 
 .portraet {
   width: 460px;
@@ -173,14 +206,270 @@ footer {
   background-color: #f2d7d3;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   margin: 15px;
 }
 
+.tekst_i_cirkel h2 {
+  margin: 25px 10px 0px 10px;
+  font-size: 40px;
+}
+
+.tekst_i_cirkel p {
+  margin: 15px 30px 0 30px;
+  line-height: 1.6;
+  font-family: merriweather;
+  font-size: 13px;
+}
+
+.om_mig_overskrift {
+  font-size: 80px;
+  text-align: center;
+}
+
+.cv_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cv_container p {
+  margin: 10px 0;
+  font-size: 18px;
+  font-family: merriweather;
+}
+
+.h2_cv {
+  font-size: 80px;
+  text-align: center;
+}
+
+.farveboks {
+  padding: 20px;
+  background-color: #f2d7d3;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.cv_overskrifter {
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+/*Tema-siders overskrifter og underoverskrifter*/
+
+.tema_overskrifter1 {
+  font-size: 45px;
+  margin: 10px;
+}
+
+.tema_underoverskrifter {
+  font-size: 18px;
+  margin: 10px;
+}
+
+/*Tema 2*/
+
+.grid_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 25px 15px 30px 15px;
+  line-height: 1.5;
+  background-color: #f2d7d3;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tema2_billeder {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.tema_h3 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.p-2 {
+  margin: 10px;
+  line-height: 1.5;
+}
+
+/*Tema 3*/
+
+.h3-3 {
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 15px;
+}
+
+.billederaekke {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 15px;
+}
+
+.billederaekke_web {
+  background-color: #f2d7d3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.t3-p_1 {
+  line-height: 1.5;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.divider {
+  width: 50%;
+  height: 2px;
+  background-color: black;
+  margin: 15px;
+}
+
+/*Tema 4*/
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 15px 20px 15px;
+}
+
+.grid-1-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 15px 20px 15px;
+}
+
+.t4-h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.t4_tekst {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  background-color: #f2d7d3;
+  padding: 20px;
+  border-radius: 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #f2d7d3;
+}
+
+.t4_p {
+  margin-bottom: 10px;
+}
+
+.boks1_tekst {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.boks1 {
+  background-color: #f2d7d3;
+  padding: 20px;
+  border-radius: 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #f2d7d3;
+}
+
+/*Tema 5*/
+
+.t5-h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.video-t5 {
+  margin: 0 15px 10px 15px;
+}
+
+.t5-tekst {
+  line-height: 1.5;
+  margin: 5px 15px 5px 15px;
+  background-color: #f2d7d3;
+  padding: 15px;
+  border-radius: 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #f2d7d3;
+}
+
+.t5-p {
+  margin-bottom: 10px;
+}
+
+.grid_galleri {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 15px;
+}
+
+.img1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  object-fit: cover;
+}
+
+.img2,
+.img3,
+.img4,
+.img5 {
+  object-fit: cover;
+}
+
+.t5_billeder {
+  margin: 10px 15px 5px 15px;
+}
+
 /*Desktop*/
 @media (min-width: 800px) {
+  /*Forside*/
+  .index_h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+
+  .index_h2 {
+    font-size: 27px;
+    line-height: 1.5;
+  }
+
+  .h3_index {
+    margin-bottom: 30px;
+  }
+
+  .scroll_button {
+    font-size: 60px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin-top: 100px;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+
   .projektoversigt {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -195,9 +484,12 @@ footer {
     object-fit: cover;
   }
 
+  /*Om mig-side og CV*/
+
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
     gap: 10px;
   }
 
@@ -215,9 +507,229 @@ footer {
     background-color: #f2d7d3;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
-    margin: 15px;
+  }
+
+  .tekst_i_cirkel h2 {
+    margin: 80px 0 10px 0;
+    font-size: 50px;
+  }
+
+  .tekst_i_cirkel p {
+    margin: 15px 70px 0 70px;
+    font-family: merriweather;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  .om_mig_overskrift {
+    font-size: 120px;
+    text-align: center;
+  }
+
+  .cv_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .cv_container p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: merriweather;
+  }
+
+  .farveboks {
+    padding: 20px;
+    background-color: #f2d7d3;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .cv_overskrifter {
+    text-decoration: underline;
+    font-size: 35px;
+  }
+
+  /*Fælles tema-overskrifter*/
+
+  .tema_overskrifter1 {
+    font-size: 100px;
+  }
+
+  .tema_underoverskrifter {
+    font-size: 30px;
+  }
+
+  /*Tema 2*/
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 25px 10px 25px 10px;
+    line-height: 1.5;
+    gap: 10px;
+    background-color: #f2d7d3;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .tema2_billeder {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .tema_h3 {
+    font-size: 35px;
+  }
+
+  .omvendt {
+    order: -1;
+  }
+
+  /*Tema 3*/
+
+  .h3-3 {
+    font-size: 35px;
+    margin: 50px 10px 20px 5px;
+  }
+
+  .billederaekke {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+  }
+
+  .divider {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .t3-p_1 {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .billederaekke_web {
+    background-color: #f2d7d3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /*Tema 4*/
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 15px 20px 15px;
+  }
+
+  .grid-1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 15px 0 15px;
+    gap: 10px;
+  }
+
+  .t4-h3 {
+    font-size: 35px;
+    margin-top: 40px;
+    padding-left: 15px;
+  }
+
+  .t4_tekst {
+    line-height: 1.5;
+    margin: 0 10px 0 0;
+    background-color: #f2d7d3;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #f2d7d3;
+  }
+
+  .t4_p {
+    margin-bottom: 10px;
+  }
+
+  /* Tema 5*/
+
+  .t5-h3 {
+    font-size: 35px;
+    margin-top: 40px;
+    padding-left: 15px;
+  }
+
+  .t5-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .t5-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .t5-p {
+    margin-bottom: 10px;
+  }
+
+  .grid_galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .img1 {
+    grid-column: span 2;
+    grid-row: 1;
+    height: 100%;
+  }
+
+  .img2 {
+    grid-column: 1;
+    grid-row: 1;
+    height: 100%;
+  }
+
+  .img3 {
+    grid-column: 1;
+    grid-row: 2;
+    object-fit: cover;
+  }
+
+  .img4 {
+    grid-column: 2;
+    grid-row: 2;
+    object-fit: cover;
+  }
+
+  .img5 {
+    grid-column: 3;
+    grid-row: 2;
+    object-fit: cover;
+  }
+
+  .t5-tekst {
+    line-height: 1.5;
+    margin: 10px 15px 10px 15px;
+    background-color: #f2d7d3;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #f2d7d3;
   }
 }
